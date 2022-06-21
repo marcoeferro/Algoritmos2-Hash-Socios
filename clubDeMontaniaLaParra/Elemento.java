@@ -1,5 +1,3 @@
-package clubDeMontaniaLaParra;
-
 public class Elemento {
     
     tipoSocio socio;

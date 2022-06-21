@@ -1,4 +1,3 @@
-package clubDeMontaniaLaParra;
 
 public class tablaDispersaEnlazada {
     

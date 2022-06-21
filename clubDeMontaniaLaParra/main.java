@@ -1,14 +1,12 @@
-package clubDeMontaniaLaParra;
 import java.util.Scanner;
-
-public class App {
-    
-    private static Scanner input = new Scanner(System.in);
-    private static int rta=0,condicion=99;
-    private static int clave;
-    private static tablaDispersaEnlazada tablaHash = new tablaDispersaEnlazada();
+public class main {
     
     public static void main(String[] args){
+        
+        Scanner input = new Scanner(System.in);
+        int rta=0,condicion=99;
+        int clave;
+        tablaDispersaEnlazada tablaHash = new tablaDispersaEnlazada();
              
         do{
             System.out.print("[1] Insertar una Socio \n");
@@ -39,6 +37,7 @@ public class App {
                     break;
                 case 0 :
                     condicion = 0;
+                    input.close();
                     break;
                 default:
                     System.out.print("La opcion ingresada no es valida\n");
@@ -55,3 +54,6 @@ public class App {
 
     
 }
+
+
+
